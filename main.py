@@ -4,7 +4,7 @@ from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.screenmanager import ScreenManager, Screen
 from kivy.uix.textinput import TextInput
-class InstrScr(Screen):
+class InstrScr():
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
         info = Label(text = "Тут буде відображена інформація про додаток")
