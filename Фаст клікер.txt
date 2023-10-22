@@ -1,7 +1,7 @@
 import pygame
 import time
 pygame.init()
- 
+# дуже гарна гра
 back = (200, 255, 255) 
 mw = pygame.display.set_mode((500, 500)) 
 mw.fill(back)
